@@ -63,3 +63,23 @@ body {
     right: 5px;
     color: white;
 }
+@media screen and (max-width:1030px ) {
+    .slider {
+    width: 600px;}
+    .slider_before {
+    width: 300px;
+    }
+    .slider_after {
+    width: 600px;}
+
+}
+
+@media screen and (max-width:620px ) {
+    .slider {
+    width: 300px;}
+    .slider_before {
+    width: 150px;
+    }
+    .slider_after {
+    width: 300px;}
+}
